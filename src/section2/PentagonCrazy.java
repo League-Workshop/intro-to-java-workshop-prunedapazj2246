@@ -9,7 +9,8 @@ import org.jointheleague.graphical.robot.Robot;
 public class PentagonCrazy {
 
 	private void makePrettyThings() {
-		// 1. Create a new Robot
+	Robot jeffy = new Robot();
+	// 1. Create a new Robot
 
 		// 3. Put the robot's pen down
 
@@ -23,7 +24,7 @@ public class PentagonCrazy {
 
 		// 7. Use a for loop to repeat steps #2 to #11, 200 times. When this is done you should see a pentagon
 
-			// 2. Move the robot 200 pixels
+		jeffy.move(200);	// 2. Move the robot 200 pixels
 	
 			// 10. Change the previous line of code to make the robot move "i" pixels instead of 200 
 	
