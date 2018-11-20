@@ -12,26 +12,26 @@ public class PentagonCrazy {
 	Robot jeffy = new Robot();
 	// 1. Create a new Robot
 
-		// 3. Put the robot's pen down
+		jeffy.penDown();// 3. Put the robot's pen down
 
-		// 8. Make the robot go at maximum speed (100)
+		jeffy.setSpeed(100);// 8. Make the robot go at maximum speed (100)
 
 		// 9. Set the pen to a color that you like for the shape
 
-		// 4. Make a variable for the number of sides you want (can’t test this one)
+		int tall = 5;// 4. Make a variable for the number of sides you want (can’t test this one)
 
-		// 5. Make a second variable for the angle you want the robot to turn. Hint: you can divide in Java using "/". Can’t test until step 6
-
-		// 7. Use a for loop to repeat steps #2 to #11, 200 times. When this is done you should see a pentagon
-
-		jeffy.move(200);	// 2. Move the robot 200 pixels
+		int soccer = 360/tall;// 5. Make a second variable for the angle you want the robot to turn. Hint: you can divide in Java using "/". Can’t test until step 6
+jeffy.hide();
+		for(int i = 0; i<2000;i++) {// 7. Use a for loop to repeat steps #2 to #11, 200 times. When this is done you should see a pentagon
+		//	jeffy.setRandomPenColor();
+		jeffy.move(i);	// 2. Move the robot 200 pixels
 	
 			// 10. Change the previous line of code to make the robot move "i" pixels instead of 200 
 	
-			// 6. Turn the robot the amount in your angle variable
+		jeffy.turn(soccer);	// 6. Turn the robot the amount in your angle variable
 	
-			// 11. Turn the robot one more degree
-
+			jeffy.turn(1);// 11. Turn the robot one more degree
+		}
 	}
 
 	// Variations:

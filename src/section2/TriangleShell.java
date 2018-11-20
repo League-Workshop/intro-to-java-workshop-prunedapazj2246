@@ -4,7 +4,7 @@ import org.jointheleague.graphical.robot.Robot;
 
 public class TriangleShell {
 
-	// 1. Create a new Robot
+Robot bill = new Robot();	// 1. Create a new Robot
 
 	
 	void go() {
